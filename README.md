@@ -1,21 +1,24 @@
-# Historical Weather Status for Saudi Arabia Cities
+# Weather Status Forecasting for Saudi Arabia Cities
 
 <br>
 
-## Overview
-Are you planning a vacation, trip, party or any other event in Saudi Arabia? Do you want to know how the weather looks like in there, so that your money does not go wasted?
+This tutorial is a simple application that used [weather data](https://github.com/EsraaMadi/KSA-weather-scraping) we've collected early.
 
-Weather status is crucial for road safety as it directly affects the number of road accidents. Hospitals have precautions when the weather is not great as they expect that the number of emergency cases will be at its peak. 
+In this tutorial, we used Recurrent Neural Networks (RNNs) to build time series forecast model. This is covered in three parts:
 
-Being able to forecast the weather for the next couple of years is also crucial for individuals. For example, suppose you are planning a big outdoor wedding for spring 2022 or you are planning a class reunion for next winter, you absolutely want to be aware of the weather status in advance.
-
-Here, we are trying to collect historical weather patterns for Saudi Arabia in order to use it for future weather forecasting.
+Part No. |Google Colab | GitHub |
+--- | --- | --- |
+1. Forecast weather temperature of one city. | <a href="https://colab.research.google.com/drive/1Hh3abwhZrIJWOpySLWnhsMPX94AP9JL3?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_city's_weather_temperature.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
+2. Forecast weather info (barometer, humidity, temperature, visibility, wind) for any Saudi city.| <a href="https://colab.research.google.com/drive/10x1P0ptobYKdKOrr6-VWrbq7tAsn7H--?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_city's_weather_info.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
+3. Forecast weather temperature for multiple Saudi cities on a certain date.| <a href="https://colab.research.google.com/drive/1sCguUuYC_gdQ2w1cfsmm2kF9yIM_SHLp?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_weather_temperature_of_multiple_cities.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
 
 <br>
 
 
 ## Weather Data
-We use this [weather website](https://www.timeanddate.com/weather/) to collect hourly weather data from **2017** to **2019** for all kingdom main cities:
+This tutorial uses [Saudi weather dataset](https://github.com/EsraaMadi/KSA-weather-scraping) which is an hourly weather data from **2017** to **2019**
+
+for all kingdom main cities:
 - Qassim
 - Hail
 - Madina
@@ -30,7 +33,16 @@ We use this [weather website](https://www.timeanddate.com/weather/) to collect h
 - Baha
 - Jawf
 
-![](assets/weather.png)
+This dataset contains 8 different features such as:
+- Date
+- Time
+- Temperature
+- Weather description ( clear - sunny - .... )
+- Wind speed
+- Humidity
+- Barometer (atmospheric pressure)
+- Visibility (how much be able to see or be seen)
+
 
 <br>
 
@@ -50,15 +62,12 @@ Weather scraper is a python script for downloading weather status such as :
 <br>
 
 ### Prerequisites
-The requirements.txt file contains any Python dependencies. You can install them by running this command:
+The requirements.txt file contains all Python dependencies. You can install them by running this command:
 
 ```
 pip3 install -r requirements.txt
 ```
 
 ### Built With
--  [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)  - Library to scrape information from web pages (HTML or XML parser).
-- [selenium](https://pypi.org/project/selenium/) - Automated web browser interaction from Python
-
-### Other Notes
-If you're looking for the collected data in years 2017 - 2019 directly, you can find it without running this script uploaded as [Kaggle dataset](https://www.kaggle.com/esraamadi/saudi-arabia-weather-history)
+-  [D-tale](https://pypi.org/project/dtale/)  - Library to provide an easy way to view & analyze Pandas data structures.
+- [Tensorflow](https://www.tensorflow.org/) - Open source library to develop and train ML models.
