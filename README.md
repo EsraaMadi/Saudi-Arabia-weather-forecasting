@@ -6,31 +6,39 @@ This tutorial is a simple application that used [weather data](https://github.co
 
 In this tutorial, we used Recurrent Neural Networks (RNNs) to build time series forecast model. This is covered in three parts:
 
-Part No. |Google Colab | GitHub |
---- | --- | --- |
-1. Forecast weather temperature of one city. | <a href="https://colab.research.google.com/drive/1Hh3abwhZrIJWOpySLWnhsMPX94AP9JL3?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_city's_weather_temperature.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
-2. Forecast weather info (barometer, humidity, temperature, visibility, wind) for any Saudi city.| <a href="https://colab.research.google.com/drive/10x1P0ptobYKdKOrr6-VWrbq7tAsn7H--?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_city's_weather_info.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
-3. Forecast weather temperature for multiple Saudi cities on a certain date.| <a href="https://colab.research.google.com/drive/1sCguUuYC_gdQ2w1cfsmm2kF9yIM_SHLp?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_weather_temperature_of_multiple_cities.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
-
 <br>
 <table class="tfo-notebook-buttons" align="left">
 <tr>
   <td>
-    <a target="_blank" href="https://www.tensorflow.org/tutorials/structured_data/time_series"><img src="https://www.tensorflow.org/images/tf_logo_32px.png" />View on TensorFlow.org</a>
+    Part1:  Forecast weather temperature of one city.
   </td>
   <td>
-    <a target="_blank" href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
+    <a href="https://colab.research.google.com/drive/1Hh3abwhZrIJWOpySLWnhsMPX94AP9JL3?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a>
   </td>
   <td>
-    <a target="_blank" href="https://github.com/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" />View source on GitHub</a>
-  </td>
-  <td>
-    <a href="https://storage.googleapis.com/tensorflow_docs/docs/site/en/tutorials/structured_data/time_series.ipynb"><img src="https://www.tensorflow.org/images/download_logo_32px.png" />Download notebook</a>
+    <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_city's_weather_temperature.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a>
   </td>
 </tr>
 <tr>
 <td>
-dddd
+  Part2: Forecast weather info (barometer, humidity, temperature, visibility, wind) for any Saudi city.
+</td>
+<td>
+<a href="https://colab.research.google.com/drive/10x1P0ptobYKdKOrr6-VWrbq7tAsn7H--?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a>
+</td>
+<td>
+<a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_city's_weather_info.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a>
+</td>
+</tr>
+<tr>
+<td>
+  Part3: Forecast weather temperature for multiple Saudi cities on a certain date.
+</td>
+<td>
+<a href="https://colab.research.google.com/drive/1sCguUuYC_gdQ2w1cfsmm2kF9yIM_SHLp?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a>
+</td>
+<td>
+<a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_weather_temperature_of_multiple_cities.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a>
 </td>
 </tr>
 </table>
