@@ -13,6 +13,27 @@ Part No. |Google Colab | GitHub |
 3. Forecast weather temperature for multiple Saudi cities on a certain date.| <a href="https://colab.research.google.com/drive/1sCguUuYC_gdQ2w1cfsmm2kF9yIM_SHLp?usp=sharing"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />  Run in Google Colab</a> | <a href="https://github.com/EsraaMadi/Saudi-Arabia-weather-forecasting/blob/master/forecasting_weather_temperature_of_multiple_cities.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> View source on GitHub</a> |
 
 <br>
+<table class="tfo-notebook-buttons" align="left">
+<tr>
+  <td>
+    <a target="_blank" href="https://www.tensorflow.org/tutorials/structured_data/time_series"><img src="https://www.tensorflow.org/images/tf_logo_32px.png" />View on TensorFlow.org</a>
+  </td>
+  <td>
+    <a target="_blank" href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
+  </td>
+  <td>
+    <a target="_blank" href="https://github.com/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" />View source on GitHub</a>
+  </td>
+  <td>
+    <a href="https://storage.googleapis.com/tensorflow_docs/docs/site/en/tutorials/structured_data/time_series.ipynb"><img src="https://www.tensorflow.org/images/download_logo_32px.png" />Download notebook</a>
+  </td>
+</tr>
+<tr>
+<td>
+dddd
+</td>
+</tr>
+</table>
 
 
 ## Weather Data
@@ -45,17 +66,6 @@ This dataset contains 8 different features such as:
 
 
 <br>
-
-## Weather Scraper
-Weather scraper is a python script for downloading weather status such as :
-- Date
-- Time
-- Temperature
-- Weather description ( clear - sunny - .... )
-- Wind speed
-- Humidity
-- Barometer (atmospheric pressure)
-- Visibility (how much be able to see or be seen)
 
 -----
 
